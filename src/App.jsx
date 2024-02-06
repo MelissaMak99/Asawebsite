@@ -6,7 +6,7 @@ import Discover from './components/Discover';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
