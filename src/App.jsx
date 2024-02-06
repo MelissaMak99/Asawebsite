@@ -33,11 +33,11 @@ function App() {
     <div>
       <Router>
       <ScrollToTop/>
-        {/* <Navbar/> */}
+        <Navbar/>
         <Routes>
-        <Route exact path='/[Asawebsite]/' element={<Home/>}/>
-        <Route path='/[Asawebsite]/About' element={<About/>}/>
-        <Route path='/[Asawebsite]/Donate' element={<Donate/>}/>
+        <Route exact path='/' element={<Home/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/Donate' element={<Donate/>}/>
         </Routes>
         
         <Footer/>
