@@ -1,9 +1,9 @@
 {
+  "homepage": "https://melissamak99.github.io/Asawebsite/",
   "name": "asali-2-0",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://melissamak99.github.io/Asawebsite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -34,7 +34,4 @@
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
   }
- 
 }
-
-
