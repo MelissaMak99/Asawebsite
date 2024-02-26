@@ -3,6 +3,7 @@ import Mission from './components/Mission';
 import Discover from './components/Discover';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import GetInvolved from './components/GetInvolved';
 
 function Home() {
 
@@ -12,7 +13,7 @@ function Home() {
           <Intro/>
           <Mission/>
           <Discover/>
-          <Contact/>
+          <GetInvolved/>
         </div>
     );
   }

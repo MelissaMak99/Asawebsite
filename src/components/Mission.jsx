@@ -1,5 +1,5 @@
 import React from 'react'
-import Doctor from '../images/doctors4.jpg';
+import Doctor from '../images/doctors3.jpg';
 import { Link } from 'react-router-dom';
 
 const Mission = () => {

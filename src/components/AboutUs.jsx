@@ -1,35 +1,35 @@
 import React from 'react'
+// import Founder from '../images/';
 
 function AboutUs() {
   return (
     <div className='h-full'>
         <div className='w-full bg-white mt-10 px-4'>
-            <div className='max-w-[900px] mx-auto grid md:grid-cols-2 space-x-4 py-5'>
+        <div className='bg-[#fcd12a] w-full mx-auto text-center flex flex-col items-center justify-center p-10'>
+            <h1 className='md:text-4xl sm:text-3xl text-2xl text-black font-bold md:py-4'>
+                The Asali Story
+            </h1>
+            <p className='md:text-xl text-lg py-4 text-black w-[700px]'>Our organization is named Asali, which means "honey" in Swahili, one of the national languages of the Democratic Republic of Congo. We chose this name because it is inspired by the full name of diabetes, which is "diabetes mellitus". The term "diabetes" was originally coined by Araetus of Cappodocia (81-133AD), and later, the word "mellitus" (meaning "honey sweet") was added by British physician Thomas Willis in 1675. This was after he rediscovered the sweetness of urine and blood in diabetic patients, which ancient Indians had first noticed. It was only in 1776 that British physician Dobson confirmed the presence of excess sugar in urine and blood as a cause of their sweetness.</p>
+        </div> 
+        <div className='text-center py-10'>
+                <h1 className='font-bold md:text-4xl sm:text-3xl text-2xl py-1 text-gray-900'>MEET THE TEAM</h1>
+        </div>
+        <div className='max-w-[900px] mx-auto grid md:grid-cols-2 space-x-6 py-5'>
                 <img className='w-[500px] my-2' src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt='/' />
                 <div className='flex flex-col justify-center p-4'>
                 <h1 className='md:text-3xl sm:text-2xl text-1xl font-bold py-2'>DAMARIS MAKONGA</h1>
                 <h2 className='font-italic md:text-3xl sm:text-2xl text-xl py-3'>Founder & CEO</h2>
                 <p>
-                I have always had a passion for contributing to the humanitarian sector in my
-                community. After extensive research and consideration, I found a cause where I could
-                make a significant impact. With a family history of high blood pressure and diabetes -
-                both cardiovascular diseases - I chose to focus on diabetes. I have witnessed firsthand
-                the effects of the condition on close relatives who did not know how to manage it
-                properly. Sadly, some even lost their lives due to inadequate research on how to live and manage
-                their conditions. To address this issue, I created an initiative to raise awareness that diabetes is not a
-                death sentence and can be managed effectively. I am deeply committed to helping individuals who
-                have been diagnosed with diabetes to discover that they can still live fulfilling lives. It is my sincere
+                have always had a passion for contributing to the humanitarian sector in my community. After extensive research and consideration, I found a cause where I could make a significant impact. With a family history of high blood pressure and diabetes - both cardiovascular diseases - I chose to focus on diabetes. I have witnessed firsthand the effects of the condition on close relatives who did not know how to manage it properly. Sadly, some even lost their lives due to inadequate research on how to live and manage their conditions. To address this issue, I created an initiative to raise awareness that diabetes is not a death sentence and can be managed effectively. I am deeply committed to helping individuals who have been diagnosed with diabetes to discover that they can still live fulfilling lives. It is my sincere hope to spread awareness throughout communities that this condition can be managed or even prevented through simple and budget-friendly lifestyle adjustments. 
                 </p>
                 </div>
-            </div>
+        </div>
 
-            <div className='text-center py-10'>
-                <h1 className='font-bold md:text-4xl sm:text-3xl text-2xl py-1 text-gray-900'>MEET THE TEAM</h1>
-            </div>
+            
             
             </div>
        
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+        {/* <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
             <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                 <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
@@ -168,7 +168,7 @@ function AboutUs() {
                     </div>
                 </div>  
             </div>  
-        </div>
+        </div> */}
     </div>
   )
 }
