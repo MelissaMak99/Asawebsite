@@ -1,5 +1,5 @@
 import React from 'react'
-// import Founder from '../images/';
+import Founder from '../images/profil.jpg';
 
 function AboutUs() {
   return (
@@ -9,14 +9,15 @@ function AboutUs() {
             <h1 className='md:text-4xl sm:text-3xl text-2xl text-black font-bold md:py-4'>
                 The Asali Story
             </h1>
-            <p className='md:text-xl text-lg py-4 text-black w-[700px]'>Our organization is named Asali, which means "honey" in Swahili, one of the national languages of the Democratic Republic of Congo. We chose this name because it is inspired by the full name of diabetes, which is "diabetes mellitus". The term "diabetes" was originally coined by Araetus of Cappodocia (81-133AD), and later, the word "mellitus" (meaning "honey sweet") was added by British physician Thomas Willis in 1675. This was after he rediscovered the sweetness of urine and blood in diabetic patients, which ancient Indians had first noticed. It was only in 1776 that British physician Dobson confirmed the presence of excess sugar in urine and blood as a cause of their sweetness.</p>
+            <p className='md:text-xl text-lg py-4 text-black md:w-[700px] w-[400px]'>Our organization is named Asali, which means "honey" in Swahili, one of the national languages of the Democratic Republic of Congo. We chose this name because it is inspired by the full name of diabetes, which is "diabetes mellitus". The term "diabetes" was originally coined by Araetus of Cappodocia (81-133AD), and later, the word "mellitus" (meaning "honey sweet") was added by British physician Thomas Willis in 1675. This was after he rediscovered the sweetness of urine and blood in diabetic patients, which ancient Indians had first noticed. It was only in 1776 that British physician Dobson confirmed the presence of excess sugar in urine and blood as a cause of their sweetness.</p>
         </div> 
         <div className='text-center py-10'>
                 <h1 className='font-bold md:text-4xl sm:text-3xl text-2xl py-1 text-gray-900'>MEET THE TEAM</h1>
         </div>
-        <div className='max-w-[900px] mx-auto grid md:grid-cols-2 space-x-6 py-5'>
-                <img className='w-[500px] my-2' src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt='/' />
-                <div className='flex flex-col justify-center p-4'>
+        <div className='max-w-[600px] mx-auto grid md:grid-cols-2  py-5'>
+                {/* <img className='w-[500px] my-2' src="https://images.unsplash.com/photo-1610212411735-e68d49920025?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" alt='/' /> */}
+                <img className='md:w-[250px] w-[50%] my-2' src={Founder} alt='/' />
+                <div className='md:w-[500px] flex flex-col'>
                 <h1 className='md:text-3xl sm:text-2xl text-1xl font-bold py-2'>DAMARIS MAKONGA</h1>
                 <h2 className='font-italic md:text-3xl sm:text-2xl text-xl py-3'>Founder & CEO</h2>
                 <p>

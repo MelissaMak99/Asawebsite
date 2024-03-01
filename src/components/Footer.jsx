@@ -49,9 +49,9 @@ const Footer = () => {
     <div>
         <h6 className='font-medium text-black'>Follow Us</h6>
         <div className='flex justify-between md:w-[75%] my-6 space-x-3'>
-            <FaFacebookSquare size={30} />
-            <FaInstagram size={30} />
-            <FaLinkedin size={30}/>
+          {/* <FaFacebookSquare size={40} /> */}
+          <a href={'https://www.instagram.com/asalifoundation?igsh=cTExMTI1ZGEwZnY3'} target="_blank" rel="noopener noreferrer"><FaInstagram size={30} /></a>
+          <a href={'https://www.linkedin.com/company/asali-foundation/?fbclid=PAAab262PprrfIuTKFHWzaWOgL88vaSzp0zDpZAM68-52iZj8whRHGU6nn6PM'} target="_blank" rel="noopener noreferrer"><FaLinkedin size={30}/></a> 
         </div>
     </div>
       </div>

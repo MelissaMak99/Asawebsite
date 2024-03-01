@@ -38,9 +38,9 @@ const Navbar = () => {
             <img className='w-[100px] md:w-[200px]' src={Logo} alt='Not found' />
             <ul className=''>
                 <li className='p-4 border-b border-gray-600 hover:text-[#fcb900]'><Button><Link to={"/"} spy={true} smooth={true} offset={50} duration={500}>Home</Link></Button></li>
-                <li className='p-4 border-b border-gray-600 hover:text-[#fcb900]'><Button><ScrollLink to={"mission"} spy={true} smooth={true} offset={-20} duration={500}>About</ScrollLink></Button></li>
+                <li className='p-4 border-b border-gray-600 hover:text-[#fcb900]'><Button><ScrollLink to={"mission"} spy={true} smooth={true} offset={-20} duration={500} onClick={() => setNav(false)}>About</ScrollLink></Button></li>
                 <li className='p-4 border-b border-gray-600 hover:text-[#fcb900]'><Button><Link to={"/Donate"} spy={true} smooth={true} offset={50} duration={500}>Donate</Link></Button></li>
-                <li className='p-4 border-b border-gray-600 hover:text-[#fcb900]'><Button><ScrollLink to={"discover"} spy={true} smooth={true} offset={50} duration={500}>Discover</ScrollLink></Button></li>
+                <li className='p-4 border-b border-gray-600 hover:text-[#fcb900]'><Button><ScrollLink to={"discover"} spy={true} smooth={true} offset={50} duration={500} onClick={() => setNav(false)}>Discover</ScrollLink></Button></li>
                 <li className='p-4'><Button><ScrollLink to={"getinvolved"} spy={true} smooth={true} offset={50} duration={500}>Get Involved</ScrollLink></Button></li>
             </ul>
         </div>
