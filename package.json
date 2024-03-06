@@ -1,5 +1,5 @@
 {
-  "homepage": "https://melissamak-03.github.io/",
+  "homepage": "https://asalifoundation.org/",
   "name": "asali-2-0",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "firebase": "^10.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
