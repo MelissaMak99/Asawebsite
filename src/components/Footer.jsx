@@ -16,7 +16,7 @@ const Footer = () => {
         <img className='w-[100px] md:w-[200px]' src={Logo} alt='Not found' />
         <p className='py-2 text-sm'>Operating hours: Monday-Friday 9 am- 5pm</p>
         <p className='py-2 text-sm'>info@asalifoundation.org</p>
-        <p className='py-2 text-sm'>+243 XXX XXX XXXX</p>
+        <p className='py-2 text-sm'>+243 978 696 752</p>
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
     <div>
